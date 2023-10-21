@@ -7,44 +7,26 @@ import { SparkleIcon, UserSecurityIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
-function Developer() {
+function Line1() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
-      <span className="font-mono">/&gt;</span>
-      <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
+      <span>百合研社团</span>
     </span>
   )
 }
 
-function Designer() {
+function Line2() {
   return (
-    <span className="group relative rounded-2xl bg-black/5 p-1 dark:bg-white/5">
-      <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
-        <span className="absolute -left-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -right-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-      </span>
-      设计师
+    <span className="group">
+      <span>「与你·一起绽放」的</span>
     </span>
   )
 }
 
-function OCD() {
+function Line3() {
   return (
     <span className="group">
-      <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
-    </span>
-  )
-}
-
-function Founder() {
-  return (
-    <span className="group">
-      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>百合向研究·服务·媒体社团</span>
     </span>
   )
 }
@@ -63,9 +45,11 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
+        <Line1 />
         <br />
-        <OCD />，<Founder />
+        <Line2 />
+        <br />
+        <Line3 />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,8 +64,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我们是百合研社团（Yurier Department），
-          「与你·一起绽放」的百合向研究·服务·媒体社团。
+          我们是百合研社团（Yurier Department），「与你·一起绽放」的百合向研究·服务·媒体社团。
+
           <PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
         </Balancer>
       </motion.p>
@@ -98,8 +82,13 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
-          aria-label="我的推特"
+          href="https://space.bilibili.com/643844175"
+          aria-label="我们在 Bilibili"
+          platform="bilibili"
+        />
+        <SocialLink
+          href="https://ctwitter.com/YurierDept"
+          aria-label="我们在X(Twitter)"
           platform="twitter"
         />
         <SocialLink
@@ -108,24 +97,14 @@ export function Headline() {
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
-          aria-label="我的 Bilibili"
-          platform="bilibili"
-        />
-        <SocialLink
           href="https://cali.so/github"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
-          aria-label="我的邮箱"
+          href="mailto:harico@yurier.net"
+          aria-label="主编的邮箱"
           platform="mail"
         />
       </motion.div>

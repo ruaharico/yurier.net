@@ -121,10 +121,7 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：
-                <PeekabooLink href="https://github.com/CaliCastle/cali.so">
-                  GitHub
-                </PeekabooLink>
+                本站的原创内容如无特别标注，均附带CC BY-SA-NC 4.0协议提供。<br />本站基于Cail Castle的开源项目修改而来。项目的<PeekabooLink href="https://github.com/CaliCastle/cali.so">GitHub</PeekabooLink>
               </p>
               <Links />
             </div>

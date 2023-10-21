@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="百合研社团"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,10 +47,9 @@ export default function Layout({
                   href="https://cali.so"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>百合研社团</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
               </Text>
               <Text className="text-center">
                 <Link

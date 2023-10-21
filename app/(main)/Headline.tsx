@@ -80,9 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          这里是百合研社团/Yurier Department的官方网站。
-          我们自2023年10月5日起起航（这一天，《百合研社团章程》2023年10月版表决通过），
-          是「与你·一起绽放」的百合向研究·服务·媒体社团。
+          我是 Cali，
+          <PeekabooLink href="https://zolplay.cn">佐玩</PeekabooLink>
+          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
+          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
       <motion.div

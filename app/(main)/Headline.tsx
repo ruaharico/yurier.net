@@ -92,12 +92,12 @@ export function Headline() {
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
+          href="#"
           aria-label="我的 YouTube"
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="#"
           aria-label="我的 GitHub"
           platform="github"
         />

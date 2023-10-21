@@ -1,13 +1,12 @@
-## 我的个人网站
+## yurier.net
+百合研社团官方网站 [https://yurier.net/]（https://yurier.net/）的网页源代码。
+基于[cali.so的源代码](https://github.com/CaliCastle/cali.so)修改而成，在此致谢。
 
-我的个人网站 [https://cali.so/](https://cali.so/) 的源代码。
-
-需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
-
-可查看 `.env.example` 文件，里面包含了所有需要的环境变量。
+### 内容
+原创文本及具版权的图片素材附带CC BY-SA-NC 4.0协议发布（作者：百合研社团）。
 
 ### 技术栈
-
+包括但不限于
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -22,20 +21,9 @@
 - [Resend](https://resend.com/)
 
 ### 教程
+想部署成自己的网站？可以查看上游 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)。
 
-想部署成自己的网站？可以查看 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)
-
-### 本地开发
-
-```bash
-# 安装依赖
-pnpm install
-
-# 启动开发服务器
-pnpm dev
-
-# 构建
-pnpm build
-```
-
-通过 [Vercel](https://vercel.com/) 一键部署。
+### To-do List
+替换/public的部分png与svg素材
+/emails/NewReplyComment.tsx 改开头
+请注意，排在/emails/NewReplyComment.tsx上面的只是粗略改，很多地方没改

@@ -80,9 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          这里是百合研社团/Yurier Department的官方网站。
-          我们自2023年10月5日起起航（这一天，《百合研社团章程》2023年10月版表决通过），
-          是「与你·一起绽放」的百合向研究·服务·媒体社团。
+          我们是百合研社团（Yurier Department），
+          「与你·一起绽放」的百合向研究·服务·媒体社团。
+          <PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
         </Balancer>
       </motion.p>
       <motion.div

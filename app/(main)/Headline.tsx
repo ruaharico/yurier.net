@@ -2,8 +2,6 @@
 
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
-
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
@@ -65,7 +63,8 @@ export function Headline() {
       >
         <Balancer>
           我们是百合研社团（Yurier Department），「与你·一起绽放」的百合向研究·服务·媒体社团。
-
+          <br />
+          <PeekabooLink href="https://yuriboat.cn">访问「百合花船」企划官网</PeekabooLink>
           <PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
         </Balancer>
       </motion.p>

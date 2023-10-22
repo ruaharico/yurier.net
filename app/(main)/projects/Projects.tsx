@@ -10,7 +10,8 @@ export async function Projects() {
       className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
     >
       {projects.map((project) => (
-        <ProjectCard project={project} key={project._id} />
+        <ProjectCard project={project} key={project.7dffdbba8a0c} />
+        <ProjectCard project={project} key={project.2c4e9b934dba} />
       ))}
     </ul>
   )

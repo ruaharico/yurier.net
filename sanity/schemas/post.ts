@@ -72,7 +72,7 @@ export default defineType({
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
-      description: 'This image will be used for the preview (1200 x 675px)',
+      description: '头图，建议1200 x 675px',
       options: {
         hotspot: true,
       },

@@ -5,7 +5,7 @@ import ReadingTimeInput from '~/sanity/components/ReadingTimeInput'
 export const readingTimeType = defineType({
   name: 'readingTime',
   title: 'Reading Time',
-  description: 'The estimated reading time (in minutes) for the given content.',
+  description: '自动计算阅读时间',
   type: 'number',
   components: {
     input: ReadingTimeInput,

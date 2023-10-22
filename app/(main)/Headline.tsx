@@ -73,7 +73,7 @@ export function Headline() {
           <br />
           <b>我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
           <br />
-          <b>社员常用：</b><PeekabooLink href="https://yurier.net">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
+          <b>社员常用：</b><PeekabooLink href="https://yurier66.feishu.cn">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
         </Balancer>
       </motion.p>
       <motion.div

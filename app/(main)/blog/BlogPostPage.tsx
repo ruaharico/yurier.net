@@ -12,7 +12,6 @@ import {
   CalendarIcon,
   CursorClickIcon,
   HourglassIcon,
-  PencilSwooshIcon,
   ScriptIcon,
   UTurnLeftIcon,
 } from '~/assets'
@@ -23,20 +22,16 @@ import { Button } from '~/components/ui/Button'
 import { Container } from '~/components/ui/Container'
 import { prettifyNumber } from '~/lib/math'
 import { type PostDetail } from '~/sanity/schemas/post'
-
-import { BlogPostCard } from './BlogPostCard'
 import { BlogPostTableOfContents } from './BlogPostTableOfContents'
 
 export function BlogPostPage({
   post,
   views,
   reactions,
-  relatedViews,
 }: {
   post: PostDetail
   views?: number
   reactions?: number[]
-  relatedViews: number[]
 }) {
   return (
     <Container className="mt-16 lg:mt-32">
@@ -185,25 +180,6 @@ export function BlogPostPage({
           </div>
         </aside>
       </div>
-
-      {post.related && post.related.length > 0 ? (
-        <section className="mb-12 mt-32">
-          <h2 className="mb-6 flex items-center justify-center text-lg font-bold text-zinc-900 dark:text-zinc-100">
-            <PencilSwooshIcon className="h-5 w-5 flex-none" />
-            <span className="ml-2">相关文章</span>
-          </h2>
-
-          <div className="mt-6 grid grid-cols-1 justify-center gap-6 md:grid-cols-[repeat(auto-fit,75%)] lg:grid-cols-[repeat(auto-fit,45%)] lg:gap-8">
-            {post.related.map((post, idx) => (
-              <BlogPostCard
-                post={post}
-                views={relatedViews[idx] ?? 0}
-                key={post._id}
-              />
-            ))}
-          </div>
-        </section>
-      ) : null}
 
       <ClientOnly>
         <BlogPostStateLoader post={post} />

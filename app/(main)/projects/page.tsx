@@ -28,7 +28,9 @@ export default function ProjectsPage() {
           项目列表
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          我们是研究·服务·媒体社团。在百合文化相关的研究、服务与基础建设、媒体等领域，我们均有项目规划与实践。以下是项目列表。
+          百合研社团在百合文化相关的研究、服务与基础建设、媒体等领域，均有项目规划与实践。
+          <br />
+          以下是项目列表。
         </p>
       </header>
       <div className="mt-16 sm:mt-20">

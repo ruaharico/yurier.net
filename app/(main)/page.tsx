@@ -15,21 +15,20 @@ export default function BlogHomePage() {
           <div className="flex flex-col gap-6 pt-6">
             <BlogPosts />
           </div>
+          <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
+            <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+              <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+              <span className="ml-2">这里是侧边栏</span>
+              </h2>
+              <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
+              <span>侧边栏文字</span>
+              </p>
+            </div>
+          </aside>
         </div>
       </Container>
     </>
   )
 }
 export const revalidate = 60
-//以下是暂时弃用的侧边栏代码，需要时请移动下面的代码，达至与 <div className="flex flex-col gap-6 pt-6"><BlogPosts /></div> 并列
-/* <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
-            <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-            <span className="ml-2">字段1</span>
-            </h2>
-            <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-            <span>字段2</span>
-            <br />
-            <span>字段3</span>
-            </p>
-          </aside>
-*/
+

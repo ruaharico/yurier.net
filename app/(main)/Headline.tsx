@@ -63,10 +63,15 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我们是百合研社团（Yurier Department），「与你·一起绽放」的百合向研究·服务·媒体社团。
+          这里是百合研社团（Yurier Department）的官方网站。
           <br />
-          <PeekabooLink href="https://yuriboat.cn">访问「百合花船」企划官网</PeekabooLink>
-          <PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
+          研究：花韵潮汐
+          <br />
+          服务与基础建设：<PeekabooLink href="https://yuriboat.cn">访问「百合花船」企划官网</PeekabooLink>
+          <br />
+          媒体：观察与点击小图标，即可知道和关注我们在各大社媒平台的账号。
+          <br />
+          纲领：<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
         </Balancer>
       </motion.p>
       <motion.div

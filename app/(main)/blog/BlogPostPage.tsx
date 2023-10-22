@@ -22,6 +22,7 @@ import { Button } from '~/components/ui/Button'
 import { Container } from '~/components/ui/Container'
 import { prettifyNumber } from '~/lib/math'
 import { type PostDetail } from '~/sanity/schemas/post'
+
 import { BlogPostTableOfContents } from './BlogPostTableOfContents'
 
 export function BlogPostPage({

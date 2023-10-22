@@ -27,7 +27,7 @@ html.dark {
 
 ::selection {
   background-color: #bce9ff;
-  color: white;
+  color: #004d64;
 }
 
 @keyframes typing-pulse {

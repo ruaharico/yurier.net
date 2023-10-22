@@ -67,7 +67,7 @@ function Desktop({
         'rounded-full bg-gradient-to-b from-zinc-50/70 to-white/90',
         'shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur-md',
         'dark:from-zinc-900/70 dark:to-zinc-800/90 dark:ring-zinc-100/10',
-        '[--spotlight-color:rgb(147_231_255_/_0.6)] dark:[--spotlight-color:rgb(147_231_255_/_0.07)]',
+        '[--spotlight-color:rgb(223_247_255_/_0.6)] dark:[--spotlight-color:rgb(132_226_255_/_0.6)]',
         className
       )}
       {...props}

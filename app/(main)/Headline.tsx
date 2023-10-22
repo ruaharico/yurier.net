@@ -9,7 +9,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Line1() {
   return (
     <span className="group">
-      <span>百合研社团</span>
+      <span>百合研社团，</span>
     </span>
   )
 }

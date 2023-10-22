@@ -96,13 +96,6 @@ async function LastVisitorInfo() {
 }
 
 export async function Footer() {
-  const {
-    rows: [count],
-  } = await db.execute(
-    sql`SELECT 
-    (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers`
-  )
-
   return (
     <footer className="mt-32">
       <Container.Outer>

@@ -2,7 +2,6 @@ import React from 'react'
 
 import { BlogPosts } from '~/app/(main)/blog/BlogPosts'
 import { Headline } from '~/app/(main)/Headline'
-import { PencilSwooshIcon } from '~/assets'
 import { Container } from '~/components/ui/Container'
 
 export default function BlogHomePage() {

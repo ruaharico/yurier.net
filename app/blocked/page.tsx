@@ -2,7 +2,7 @@ export default function BlockedPage() {
   return (
     <main className="flex h-full w-full flex-col items-center justify-center bg-zinc-200 text-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
       <h1 className="mb-4 text-4xl font-black tracking-tighter">
-        我们已禁止你或你目前所在的所使用的IP访问本站。
+        我们已禁止你或你目前所使用的IP访问本站。
       </h1>
       <span className="text-sm">
         如果你认为你被误禁，请通过电子邮件联系主编：{' '}

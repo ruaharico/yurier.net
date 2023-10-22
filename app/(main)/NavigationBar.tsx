@@ -25,8 +25,8 @@ function NavItem({
         className={clsxm(
           'relative block whitespace-nowrap px-3 py-2 transition',
           isActive
-            ? 'text-lime-600 dark:text-lime-400'
-            : 'hover:text-lime-600 dark:hover:text-lime-400'
+            ? 'text-[#45c2ff] dark:text-[#45c2ff]'
+            : 'hover:text-[#45c2ff] dark:hover:text-[#45c2ff]'
         )}
       >
         {children}
@@ -79,7 +79,7 @@ function Desktop({
         aria-hidden="true"
       />
 
-      <ul className="flex bg-transparent px-3 text-sm font-medium text-[#45c2ff] dark:text-[#45c2ff] ">
+      <ul className="flex bg-transparent px-3 text-sm font-medium text-zinc-800 dark:text-zinc-200 ">
         {navigationItems.map(({ href, text }) => (
           <NavItem key={href} href={href}>
             {text}

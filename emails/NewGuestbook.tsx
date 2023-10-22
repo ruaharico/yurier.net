@@ -6,7 +6,7 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
-  link = 'https://caliso/guestbook',
+  link = 'https://yurier.net/guestbook',
   userFirstName = '百合研社团',
   userLastName = 'Yurier Department',
   userImageUrl = 'https://yurier.net/icon.png',

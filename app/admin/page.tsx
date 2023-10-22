@@ -10,8 +10,7 @@ export default async function AdminPage() {
   } = await db.execute<{ today_count: number }>(
     sql`SELECT 
   (SELECT COUNT(*) FROM comments) as comments,
-  (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers,
-  (SELECT COUNT(*) FROM guestbook) as guestbook`
+  (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers`
   )
 
   return (

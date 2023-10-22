@@ -7,7 +7,7 @@ export default function NotFoundPage() {
     <main className="h-screen">
       <div className="pointer-events-none absolute inset-0 flex h-full w-full flex-col items-center justify-center">
         <motion.h1
-          className="pointer-events-none select-none text-[35vmin] font-bold text-white mix-blend-overlay"
+          className="pointer-events-none select-none text-[35vmin] font-bold text-white"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.3 }}

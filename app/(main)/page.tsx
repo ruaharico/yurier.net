@@ -15,7 +15,14 @@ export default function BlogHomePage() {
           <div className="flex flex-col gap-6 pt-6">
             <BlogPosts />
           </div>
-          <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
+        </div>
+      </Container>
+    </>
+  )
+}
+export const revalidate = 60
+//以下是暂时弃用的侧边栏代码，需要时请移动下面的代码，达至与 <div className="flex flex-col gap-6 pt-6"><BlogPosts /></div> 并列
+/* <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
             <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
             <span className="ml-2">字段1</span>
             </h2>
@@ -25,10 +32,4 @@ export default function BlogHomePage() {
             <span>字段3</span>
             </p>
           </aside>
-        </div>
-      </Container>
-    </>
-  )
-}
-
-export const revalidate = 60
+*/

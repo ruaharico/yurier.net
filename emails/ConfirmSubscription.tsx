@@ -44,7 +44,7 @@ const ConfirmSubscriptionEmail = ({ link = 'link.com/confirm?fake-token' }) => {
       </Text>
       <Hr className="mx-0 my-[26px] h-px w-full bg-zinc-100" />
       <Text className="text-[12px] leading-[24px] text-[#666666]">
-        如果不是你本人操作的可以无视本封邮件，如果你有任何疑问可以随时联系我。
+        如果不是你本人操作的，可直接无视本封邮件，不会对你有任何影响。如果你有任何疑问，可以随时联系我们（harico@yurier.net）。
       </Text>
     </Layout>
   )

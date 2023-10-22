@@ -8,10 +8,10 @@ export default function Email() {
       <Button
         pX={20}
         pY={12}
-        href="https://example.com"
+        href="https://yurier.net"
         style={{ background: '#000', color: '#fff' }}
       >
-        Click me
+        点我！
       </Button>
     </Html>
   )

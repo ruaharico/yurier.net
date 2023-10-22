@@ -8,7 +8,7 @@ import Layout from './Layout'
 const NewReplyCommentEmail = ({
   postLink = 'https://yurier.net',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-  postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
+  postImageUrl = 'https://yurier.net/api/og?title=测试文章',
   userFirstName = '百合研社团',
   userLastName = 'Yurier Department',
   userImageUrl = 'https://yurier.net/icon.png',

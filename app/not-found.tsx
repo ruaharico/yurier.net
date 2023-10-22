@@ -1,18 +1,10 @@
 'use client'
-
-import Spline from '@splinetool/react-spline'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-
-import { url } from '~/lib'
 
 export default function NotFoundPage() {
   return (
     <main className="h-screen">
-      <div className="absolute inset-0 h-full w-full">
-        <Spline scene={url('macbook.splinecode').href} />
-      </div>
-
       <div className="pointer-events-none absolute inset-0 flex h-full w-full flex-col items-center justify-center">
         <motion.h1
           className="pointer-events-none select-none text-[35vmin] font-bold text-white mix-blend-overlay"

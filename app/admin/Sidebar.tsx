@@ -9,7 +9,6 @@ import {
   DashboardIcon,
   HomeIcon,
   NewCommentIcon,
-  SubscriberIcon,
 } from '~/assets'
 
 import logo from './../apple-icon.png'
@@ -17,7 +16,6 @@ import logo from './../apple-icon.png'
 const navigation = [
   { name: '仪表盘', href: '', icon: DashboardIcon },
   { name: '评论', href: '/comments', icon: NewCommentIcon },
-  { name: '订阅', href: '/subscribers', icon: SubscriberIcon },
 ]
 
 export function Sidebar() {

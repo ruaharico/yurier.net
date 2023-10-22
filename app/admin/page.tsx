@@ -9,8 +9,7 @@ export default async function AdminPage() {
     rows: [count],
   } = await db.execute<{ today_count: number }>(
     sql`SELECT 
-  (SELECT COUNT(*) FROM comments) as comments,
-  (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers`
+  (SELECT COUNT(*) FROM comments) as comments`
   )
 
   return (
@@ -22,12 +21,6 @@ export default async function AdminPage() {
           <Text>总评论</Text>
 
           {count && 'comments' in count && <Metric>{count.comments}</Metric>}
-        </Card>
-        <Card>
-          <Text>总订阅</Text>
-          {count && 'subscribers' in count && (
-            <Metric>{count.subscribers}</Metric>
-          )}
         </Card>
       </Grid>
     </>

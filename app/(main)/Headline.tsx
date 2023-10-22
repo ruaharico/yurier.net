@@ -63,15 +63,17 @@ export function Headline() {
         }}
       >
         <Balancer>
-          这里是百合研社团（Yurier Department）的官方网站。
+          ·百合研社团(Yurier Department)官方网站·
           <br />
-          研究：花韵潮汐
+          <b>研究：</b>访问「花韵潮汐」(Yurier Research)  -  （暂未开站，敬请期待）
           <br />
-          服务与基础建设：<PeekabooLink href="https://yuriboat.cn">访问「百合花船」企划官网</PeekabooLink>
+          <b>服务与基础建设：</b>请访问<PeekabooLink href="https://yuriboat.cn">「百合花船」企划官网</PeekabooLink>
           <br />
-          媒体：观察与点击小图标，即可知道和关注我们在各大社媒平台的账号。
+          <b>媒体：</b>观察与点击下方的小图标，即可了解和关注我们在各大社媒平台的账号。（暂未收录所有账号）
           <br />
-          纲领：<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">阅读《百合研社团章程》</PeekabooLink>
+          <b>我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
+          <br />
+          <b>社员常用：</b><PeekabooLink href="https://yurier.net">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
         </Balancer>
       </motion.p>
       <motion.div
@@ -92,21 +94,10 @@ export function Headline() {
           platform="bilibili"
         />
         <SocialLink
-          href="https://ctwitter.com/YurierDept"
+          href="https://twitter.com/YurierDept"
           aria-label="我们在X(Twitter)"
           platform="twitter"
         />
-        <SocialLink
-          href="#"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
-          href="#"
-          aria-label="我的 GitHub"
-          platform="github"
-        />
-        <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="mailto:harico@yurier.net"
           aria-label="主编的邮箱"

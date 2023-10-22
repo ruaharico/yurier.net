@@ -662,7 +662,7 @@
     "cca2": "HK",
     "currencies": { "HKD": { "name": "Hong Kong dollar", "symbol": "$" } },
     "languages": { "eng": "English", "zho": "Chinese" },
-    "flag": "🇭🇰"
+    "flag": "🇭🇰(Hong Kong SAR)"
   },
   {
     "cca2": "HM",
@@ -921,7 +921,7 @@
     "cca2": "MO",
     "currencies": { "MOP": { "name": "Macanese pataca", "symbol": "P" } },
     "languages": { "por": "Portuguese", "zho": "Chinese" },
-    "flag": "🇲🇴"
+    "flag": "🇲🇴(Macao SAR)"
   },
   {
     "cca2": "MF",

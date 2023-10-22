@@ -79,7 +79,7 @@ function Desktop({
         aria-hidden="true"
       />
 
-      <ul className="flex bg-transparent px-3 text-sm font-medium text-zinc-800 dark:text-zinc-200 ">
+      <ul className="flex bg-transparent px-3 text-sm font-medium text-[#45c2ff] dark:text-[#45c2ff] ">
         {navigationItems.map(({ href, text }) => (
           <NavItem key={href} href={href}>
             {text}

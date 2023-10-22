@@ -63,13 +63,11 @@ export function Headline() {
         }}
       >
         <Balancer>
-          ·百合研社团(Yurier Department)官方网站·
-          <br />
-          <b>研究：</b>访问「花韵潮汐」(Yurier Research)  -  （暂未开站，敬请期待）
+          <b>研究：</b>访问「花韵潮汐」(Yurier Research)  - （暂未开站，敬请期待）
           <br />
           <b>服务与基础建设：</b>请访问<PeekabooLink href="https://yuriboat.cn">「百合花船」企划官网</PeekabooLink>
           <br />
-          <b>媒体：</b>观察与点击下方的小图标，即可了解和关注我们在各大社媒平台的账号。（暂未收录所有账号）
+          <b>媒体：</b>点击下方的小图标，即可访问和关注我们在各大社媒平台的账号（暂未收录所有账号）。
           <br />
           <b>我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
           <br />
@@ -97,11 +95,6 @@ export function Headline() {
           href="https://twitter.com/YurierDept"
           aria-label="我们在X(Twitter)"
           platform="twitter"
-        />
-        <SocialLink
-          href="mailto:harico@yurier.net"
-          aria-label="主编的邮箱"
-          platform="mail"
         />
       </motion.div>
     </div>

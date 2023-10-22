@@ -32,7 +32,7 @@ function NavItem({
         {children}
         {isActive && (
           <motion.span
-            className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-lime-700/0 via-lime-700/70 to-lime-700/0 dark:from-lime-400/0 dark:via-lime-400/40 dark:to-lime-400/0"
+            className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-[#45c2ff]/0 via-[#45c2ff]/70 to-[#45c2ff]/0 dark:from-[#45c2ff]/0 dark:via-[#45c2ff]/40 dark:to-[#45c2ff]/0"
             layoutId="active-nav-item"
           />
         )}

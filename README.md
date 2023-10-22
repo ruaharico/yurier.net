@@ -1,13 +1,11 @@
-## 我的个人网站
+## yurier.net
+yurier.net的网站程序源代码。
+基于Cali Castle的个人网站[https://cali.so/](https://cali.so/) 的源码修改而成，在此致谢。
+如非必要或社内需要，不建议直接fork本分支，请fork上游。合作伙伴与社外非合作伙伴人士如果确实想fork本分支，请注意把来自百合研社团的原创文本和图片等资源全部替换后再正式将网站上线，否则可能构成侵权。
 
-我的个人网站 [https://cali.so/](https://cali.so/) 的源代码。
-
-需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
-
-可查看 `.env.example` 文件，里面包含了所有需要的环境变量。
 
 ### 技术栈
-
+包括但不限于：
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -23,19 +21,4 @@
 
 ### 教程
 
-想部署成自己的网站？可以查看 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)
-
-### 本地开发
-
-```bash
-# 安装依赖
-pnpm install
-
-# 启动开发服务器
-pnpm dev
-
-# 构建
-pnpm build
-```
-
-通过 [Vercel](https://vercel.com/) 一键部署。
+想部署成自己的网站？可以参考代码上游开发者 Cali 的[官方教程](https://cali.so/blog/guide-for-cloning-my-site)。

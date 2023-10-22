@@ -30,10 +30,6 @@ export default async function AdminPage() {
             <Metric>{count.subscribers}</Metric>
           )}
         </Card>
-        <Card>
-          <Text>总留言</Text>
-          {count && 'guestbook' in count && <Metric>{count.guestbook}</Metric>}
-        </Card>
       </Grid>
     </>
   )

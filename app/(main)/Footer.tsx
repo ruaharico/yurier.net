@@ -96,17 +96,24 @@ async function LastVisitorInfo() {
 }
 
 export async function Footer() {
+  const {
+    rows: [count],
+  } = await db.execute(
+    sql`SELECT 
+    (SELECT COUNT(*) FROM subscribers WHERE subscribed_at IS NOT NULL) as subscribers`
+  )
+
   return (
     <footer className="mt-32">
       <Container.Outer>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <Container.Inner>
             <div className="mx-auto mb-8 max-w-md">
-              这里是尾部内容，待补充
+            页尾区域内容建设中。
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                本站的原创内容如无特别标注，均附带CC BY-SA-NC 4.0协议提供。<br />本站基于Cali Castle的开源项目修改而来。项目的<PeekabooLink href="https://github.com/CaliCastle/cali.so">GitHub</PeekabooLink>
+              本站由百合研社团负责建设。<br />本站的原创内容如无特别标注，均附带CC BY-SA-NC 4.0协议提供。<br />本站基于Cali Castle的开源项目修改而来。项目的<PeekabooLink href="https://github.com/CaliCastle/cali.so">GitHub</PeekabooLink>
               </p>
               <Links />
             </div>

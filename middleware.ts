@@ -58,7 +58,6 @@ export default authMiddleware({
     '/blog(.*)',
     '/confirm(.*)',
     '/projects',
-    '/guestbook',
     '/newsletters(.*)',
     '/about',
     '/rss',

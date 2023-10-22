@@ -14,14 +14,17 @@ export default function BlogHomePage() {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-6 pt-6">
-            <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-              <PencilSwooshIcon className="h-5 w-5 flex-none" />
-              <span className="ml-2">近期文章</span>
-            </h2>
             <BlogPosts />
           </div>
           <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
-            侧边栏内容，待补充
+            <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+            <span className="ml-2">字段1</span>
+            </h2>
+            <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
+            <span>字段2</span>
+            <br />
+            <span>字段3</span>
+            </p>
           </aside>
         </div>
       </Container>

@@ -21,8 +21,8 @@ export default function BlogHomePage() {
               <span>提示</span>
               </h2>
               <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-              <span><b>·</b>在桌面端的顶栏、移动端的「菜单」，可访问本站的更多板块，如「项目列表」。</span>
-              <span><b>·想加入百合研社团？</b>到「关于我们」了解更多。</span>
+              <li>在桌面端的顶栏、移动端的「菜单」，可访问本站的更多板块，如「项目列表」。</li>
+              <li><b>想加入百合研社团？</b>到「关于我们」了解更多。</li>
               </p>
             </div>
           </aside>

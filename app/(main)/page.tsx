@@ -18,7 +18,7 @@ export default function BlogHomePage() {
           <aside className="space-y-10 lg:sticky lg:top-8 lg:h-fit lg:pl-16 xl:pl-20">
             <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
               <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-              <span className="ml-2">这里是侧边栏</span>
+              <span>这里是侧边栏</span>
               </h2>
               <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
               <span>侧边栏文字</span>

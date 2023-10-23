@@ -1,45 +1,15 @@
 import { sql } from 'drizzle-orm'
-import Link from 'next/link'
 import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
-import { navigationItems } from '~/config/nav'
 import { db } from '~/db'
 import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
 
-function NavLink({
-  href,
-  children,
-}: {
-  href: string
-  children: React.ReactNode
-}) {
-  return (
-    <Link
-      href={href}
-      className="transition hover:text-[#45c2ff] dark:hover:text-[#45c2ff]"
-    >
-      {children}
-    </Link>
-  )
-}
-
-function Links() {
-  return (
-    <nav className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-      {navigationItems.map(({ href, text }) => (
-        <NavLink key={href} href={href}>
-        <p>{text}</p>
-        </NavLink>
-      ))}
-    </nav>
-  )
-}
 
 async function TotalPageViews() {
   let views: number
@@ -113,9 +83,10 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-              本站由百合研社团负责建设。<br />本站的原创内容如无特别标注，均附带CC BY-SA-NC 4.0协议提供。<br />本站基于Cali Castle的开源项目修改而来。项目的<PeekabooLink href="https://github.com/CaliCastle/cali.so">GitHub</PeekabooLink>
+              本站由百合研社团负责建设。<br />本站的原创内容如无特别标注，均附带CC BY-SA-NC 4.0协议提供。
+              <br />
+              本站基于Cali Castle的开源项目修改而来。项目的<PeekabooLink href="https://github.com/CaliCastle/cali.so">GitHub</PeekabooLink>
               </p>
-              <Links />
             </div>
           </Container.Inner>
           <Container.Inner className="mt-6">

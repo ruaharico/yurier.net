@@ -63,9 +63,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          <b style={{ color: '#45c2ff' }}>(<a href="https://yurier.net/intro_en">English introduction? Click here→</a></b>
-          &nbsp;/&nbsp;<br />
-          <b style={{ color: '#45c2ff' }}><a href="https://yurier.net/intro_ja">日本語紹介? ここをクリック→</a>)</b>
+          <b style={{ color: '#45c2ff' }}><a href="https://yurier.net/intro_en">English introduction? Click here→</a></b>
+          <br />
+          <b style={{ color: '#45c2ff' }}><a href="https://yurier.net/intro_ja">日本語紹介? ここをクリック→</a></b>
+          <br />
           <br />
           <b style={{ color: '#45c2ff' }}>研究：</b>访问「花韵潮汐」(Yurier Research)  - （暂未开站，敬请期待）
           <br />

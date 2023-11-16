@@ -63,9 +63,11 @@ export function Headline() {
         }}
       >
         <Balancer>
+          <b>(<a href="https://yurier.net/intro_en">English introduction? Click here→</a></b>&nbsp;/&nbsp;<b><a href="https://yurier.net/intro_en/intro_ja">日本語紹介? ここをクリック→</a>)</b>
+          <br />
           <b>研究：</b>访问「花韵潮汐」(Yurier Research)  - （暂未开站，敬请期待）
           <br />
-          <b>服务与基础建设：</b>请访问<PeekabooLink href="https://yuriboat.cn">「百合花船」企划官网</PeekabooLink>
+          <b>服务与基础建设：</b>请访问<PeekabooLink href="https://www.yuriboat.cn">「百合花船」企划官网</PeekabooLink>
           <br />
           <b>媒体：</b>点击下方的小图标，即可访问和关注我们在各大社媒平台的账号（暂未收录所有账号）。
           <br />

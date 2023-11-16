@@ -63,17 +63,19 @@ export function Headline() {
         }}
       >
         <Balancer>
-          <b>(<a href="https://yurier.net/intro_en">English introduction? Click here→</a></b>&nbsp;/&nbsp;<b><a href="https://yurier.net/intro_en/intro_ja">日本語紹介? ここをクリック→</a>)</b>
+          <b color="#45c2ff">(<a href="https://yurier.net/intro_en">English introduction? Click here→</a></b>
+          &nbsp;/&nbsp;<br />
+          <b color="#45c2ff"><a href="https://yurier.net/intro_en/intro_ja">日本語紹介? ここをクリック→</a>)</b>
           <br />
-          <b>研究：</b>访问「花韵潮汐」(Yurier Research)  - （暂未开站，敬请期待）
+          <b color="#45c2ff">研究：</b>访问「花韵潮汐」(Yurier Research)  - （暂未开站，敬请期待）
           <br />
-          <b>服务与基础建设：</b>请访问<PeekabooLink href="https://www.yuriboat.cn">「百合花船」企划官网</PeekabooLink>
+          <b color="#45c2ff">服务与基础建设：</b>请访问<PeekabooLink href="https://www.yuriboat.cn">「百合花船」企划官网</PeekabooLink>
           <br />
-          <b>媒体：</b>点击下方的小图标，即可访问和关注我们在各大社媒平台的账号（暂未收录所有账号）。
+          <b color="#45c2ff">媒体：</b>点击下方的小图标，即可访问和关注我们在各大社媒平台的账号（暂未收录所有账号）。
           <br />
-          <b>我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
+          <b color="#45c2ff">我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
           <br />
-          <b>社员常用：</b><PeekabooLink href="https://yurier66.feishu.cn">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
+          <b color="#45c2ff">社员常用：</b><PeekabooLink href="https://yurier66.feishu.cn">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
         </Balancer>
       </motion.p>
       <motion.div

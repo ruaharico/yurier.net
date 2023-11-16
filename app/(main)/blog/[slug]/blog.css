@@ -9,6 +9,8 @@
 
   h1 {
     @apply text-lg font-bold;
+    font-size: 1.565rem;
+    line-height: 1.75rem;
   }
 
   h2 {

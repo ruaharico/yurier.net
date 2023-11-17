@@ -109,6 +109,7 @@ export function BlogPostPage({
                 <span className="inline-flex items-center space-x-1.5">
                   <ScriptIcon />
                   <span>{post.categories.join(', ')}</span>
+                  &nbsp;&nbsp;
                   <CursorClickIcon />
                   <span>{prettifyNumber(views ?? 0, true)}次访问</span>
                 </span>

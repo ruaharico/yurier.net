@@ -11,7 +11,6 @@ import { BlogReactions } from '~/app/(main)/blog/BlogReactions'
 import {
   CalendarIcon,
   CursorClickIcon,
-  HourglassIcon,
   ScriptIcon,
   HomeIcon,
 } from '~/assets'
@@ -110,6 +109,8 @@ export function BlogPostPage({
                 <span className="inline-flex items-center space-x-1.5">
                   <ScriptIcon />
                   <span>{post.categories.join(', ')}</span>
+                  <CursorClickIcon />
+                  <span>{prettifyNumber(views ?? 0, true)}次访问</span>
                 </span>
               </motion.div>
               <motion.h1
@@ -140,31 +141,6 @@ export function BlogPostPage({
               >
                 {post.description}
               </motion.p>
-              <motion.div
-                className="flex w-full items-center space-x-4 text-sm font-medium text-zinc-700/50 dark:text-zinc-300/50"
-                initial={{ opacity: 0, y: 5 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  duration: 0.15,
-                  type: 'spring',
-                  stiffness: 150,
-                  damping: 20,
-                  delay: 0.255,
-                }}
-              >
-                <span
-                  className="inline-flex items-center space-x-1.5"
-                  title={views?.toString()}
-                >
-                  <CursorClickIcon />
-                  <span>{prettifyNumber(views ?? 0, true)}次点击</span>
-                </span>
-
-                <span className="inline-flex items-center space-x-1.5">
-                  <HourglassIcon />
-                  <span>{post.readingTime.toFixed(0)}分钟阅读</span>
-                </span>
-              </motion.div>
             </header>
             <Prose className="mt-8">
               <PostPortableText value={post.body} />

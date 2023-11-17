@@ -17,10 +17,6 @@ export default async function sitemap() {
       url: url('/projects').href,
       lastModified: new Date(),
     },
-    {
-      url: url('/about').href,
-      lastModified: new Date(),
-    },
   ] satisfies MetadataRoute.Sitemap
 
   const slugs = await getAllLatestBlogPostSlugs()

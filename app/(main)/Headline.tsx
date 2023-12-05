@@ -78,6 +78,8 @@ export function Headline() {
           <br />
           <b style={{ color: '#45c2ff' }}>我们的理念是？</b>请阅读<PeekabooLink href="https://yurier66.feishu.cn/docx/AJAvdK1tAoiouHxngvhcl5Vqn4d">《百合研社团章程》</PeekabooLink>
           <br />
+          <b style={{ color: '#45c2ff' }}>主编的邮箱：</b>harico%yurier.net | 请自行把%换成@
+          <br />
           <b style={{ color: '#45c2ff' }}>社员常用：</b><PeekabooLink href="https://yurier66.feishu.cn">登入网页版「飞书」</PeekabooLink>（云文档、邮箱…）
         </Balancer>
       </motion.p>
